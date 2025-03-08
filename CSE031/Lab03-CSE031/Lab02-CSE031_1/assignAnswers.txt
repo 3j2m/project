@@ -1,0 +1,22 @@
+Assignment 1
+1. lldb is returning 3 possible reasons for the segmentation fault. Scanf input somewhere
+line 22 or line 30.
+2. The first line error appears at line 22, so I would assume the fault occurs there.
+I will fix that by adding the dereferencing operator & to the scanf. 
+
+3. After inspection with lldb, the value of the "values" variable 
+is being updated correctly. However, the code does the computation 
+of sum divided by values, where sum is initialized as 0, and never updated. 
+4. The fix would be to, instead of passing the actual variable of the function
+as an argument, I would pass the address of the sum to the function (&values),
+so that it is correctly updated. Also updating the body of read_values so that 
+it correctly updates sum 
+
+Assignment 2 
+1. The output is as expected
+2. THe bug is that it appends the value of string 2 on the first run to the correct 
+append on the second run.
+3. The output is not as expected. It might be because the program does not know how to 
+handle spaces correctly 
+
+

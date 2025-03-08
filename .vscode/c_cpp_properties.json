@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**", // Include project headers
+                "/usr/include",          // System includes
+                "/usr/local/include"     // Additional includes (if needed)
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang++", // Specify the path to clang++
+            "cStandard": "c17",                // Set C standard
+            "cppStandard": "c++17",            // Set C++ standard
+            "intelliSenseMode": "macos-clang-x64" // Set IntelliSense mode
+        }
+    ],
+    "version": 4
+}

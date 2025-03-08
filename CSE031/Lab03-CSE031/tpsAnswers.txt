@@ -1,0 +1,15 @@
+Erik Spaulding 
+
+TPS Activity 1
+1. There is the stack, which is used to store local variables. There is the heap, which is used 
+to dynamically allocate memory. Then there is static memory, which is used to store
+global variables. 
+2a. 8 variables are declared
+b. 4 of them are pointers. They all point to integers.
+c They are stored in the heap 
+d the heap 
+
+
+TPS Activity 2
+1. it creates a node, which contains a float and an integer.
+It also create a next pointer to another node. 

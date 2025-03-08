@@ -1,0 +1,31 @@
+Erik Spaulding 
+Suchith Gali
+Huy Hoang
+
+TPS Activity 2
+1. I can navigate to my applications folder, look for an application called
+Terminal, and then click on that to open the terminal for mac.
+1a. I can open more than 1 terminal at the same time 
+1b. Maybe I would want to be able to run multiple programs at the same time. Also I 
+could possibly want to be able to run a different Linux command while another is running.
+
+2. To tell what contents are inside the current directory, I would type ls.
+
+3. To navigate to my Desktop directory, I would type cd ../../, and keep adding ../
+while pressing tab at the same time until Desktop shows up as an option. 
+
+TPS Activity 3 
+
+1. https://stackoverflow.com/questions/24819206/using-gcc-to-compile-c-code
+   https://www.wikihow.com/Compile-a-C-Program-Using-the-GNU-Compiler-(GCC)
+
+2. Done 
+3. gcc -o executableName nameofYourFile.c
+4. You know if your code has compiled correctly if an executable file with 
+the specificed name in your gcc command shows up in your directory, and you 
+are able to run it correctly with ./executableName. 
+5. The -c flag compiles the code without creating an executable file 
+6. The -g flag creates debugging information for your specificed file. 
+7. You do mv main cselab1
+8. It creates an executable called a.out. 
+9. It runs the program as expected, printing "Welcome to CSE031!" to the terminal. 

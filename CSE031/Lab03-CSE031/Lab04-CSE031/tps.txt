@@ -1,0 +1,24 @@
+TPS Activity 1
+1. I predict that it will simply print 2, which is what 2 is in hexadecimal. 
+2. Since the second for loop assigns the char A to four_ints[0], I predict
+that it will print the ASCI value for A. 
+3. My prediction was slightly correct. It printed all 4 ASCI values 
+for A, B, C, and D. 
+4. I am really lost by the results. Why does it print 2?
+5a) I am sure that only 2 arrays were allocated in the program. 
+b) Yes, they point to the same location
+c) Ok. Also I was right they do point to the same location 
+
+6) the difference between consecutive elements is a difference 
+in memory of a single byte. I guess that means each element of the 
+array points to a unique byte in memory. 
+
+TPS Activity 2
+1. Line 8 essentially dynamically allocates an array of pointers (a 2d array)
+2. Shown in the code
+3. Shown in the code 
+4. You need to pass the size of the argument so the for loop
+knows when to stop printing values of the array.
+5. Shown in the code
+6. Shown in the code
+7. Shown in the code 

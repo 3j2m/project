@@ -1,0 +1,28 @@
+evenDigitsArray[]
+oddDigitsArray[]
+func printAcronym
+    if (printIndex is greater than 10 or less than 20)
+        print "th"
+    else if (print Index modulo 10 is 1)
+        print "st"
+    else if (print index modulo 10 is 2)
+        print "nd"
+    else if (print index modulo 10 is 3)
+        print "rd"
+    else if (print index modulo 10 is 4)
+        print "th"
+int input;
+int printIndex;
+while input does not equal 0;
+print "Enter the printIndex"printAcronymn()" value: "
+    if inputDigitsSum = even;
+    add inputDigitsSum to evenDigitsArray[];
+    if inputDigitsSum = odd;
+    add inputDigitsSum to oddDigitsArray[];
+
+evenDigitsAverage = sum of evenDigitsArray[] / size of evenDigitsArray[]
+oddDigitsAverage = sum of oddDigitsArray[] / size of oddDigitsArray[]
+
+print "Average of input values whose digits sum up to an even number: " evenDigitsAverage
+print "Average of input values whose digits sum up to an odd number: " oddDigitsAverage
+    

@@ -1,0 +1,39 @@
+Ethan Womack
+Richard Chen 
+Aizen Baidya
+
+TPS Activity 1
+    3 tutorials 
+        https://web.eecs.umich.edu/~sugih/pointers/summary.html
+        https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+        https://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
+
+
+TPS Activity 2 
+1. First, you have to compile the code with cc -g 
+nameOfFile.c. 
+2. To lode it into gdb, you simply do gdb a.out
+3. Doing gdb a.out does run my program in gdb
+4. Breakpoints are specific lines where you can 
+tell your code to stop running. You set a breakpoint with 
+(lldb) breakpoint set --file test.c --line 12
+5. You can run the program line by line by slowly 
+incrementing the location of the breakpoint line by line using the step and next commands 
+6. I can use the print command in the lldb terminal followed by the name of a variable 
+7. I can tell lldb to "continue"
+8. I exit by typing exit into the terminal 
+
+TPS Activity 3 
+1. px and py are pointers. 4 variables were declared in the first line of main.
+They will point to random memory addresses because they are uninitalized.
+2. The values of x, y, and arr[0] will likely be random garbage 
+values because they are uninitalized. I think it happens becaue 
+they are unitialized, so the c compiler will initalize them to some 
+random garbage value. 
+3. I can prevent them from having unexepected values by initializing them 
+to a value. 
+4. ok
+5. ok
+6. ok
+7. ok
+8. Im not really sure if it makes sense or not. 
